@@ -1,0 +1,107 @@
+.x-background{
+    background: rgb(16 16 16 / 64%);
+    width: 50px;
+    height: 50px;
+    top: -70px;
+    margin-left: 115px;
+    display: inline-block;
+    border-radius: 17px;
+    border: solid;
+    border-color: rgb(255 255 255 / 60%);
+    border-width: 1px;
+    animation-name: social-x;
+    animation-duration: 1s;
+    position: absolute;
+
+}
+.x-background:hover{
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+.youtube-background{
+    background: rgb(16 16 16 / 64%);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    top: -70px;
+    margin-left: 50px;
+    border-radius: 17px;
+    border: solid;
+    border-color: rgb(255 255 255 / 60%);
+    border-width: 1px;
+    animation-name: social-youtube;
+    animation-duration: 1s;
+    position: absolute;
+}
+.youtube-background:hover{
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+.discord-background{
+    background: rgb(16 16 16 / 64%);
+    width: 50px;
+    height: 50px;
+    top: -70px;
+    margin-left: -167px;
+    display: inline-block;
+    border-radius: 17px;
+    border: solid;
+    border-color: rgb(255 255 255 / 60%);
+    border-width: 1px;
+    animation-name: social-discord;
+    animation-duration: 1s;
+    position: absolute;
+}
+.discord-background:hover{
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+.tiktok-background{
+     background: rgb(16 16 16 / 64%);
+     width: 50px;
+     height: 50px;
+     top: -70px;
+     margin-left: -102px;
+     display: inline-block;
+     border-radius: 17px;
+     border: solid;
+     border-color: rgb(255 255 255 / 60%);
+     border-width: 1px;
+     animation-name: social-tiktok;
+     animation-duration: 1s;
+     position: absolute;
+ }
+.tiktok-background:hover{
+     border-radius: 20px;
+     transform: scale(1.1);
+}
+
+#x{
+    margin-top: 6px;
+    margin-left: 2px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+#discord{
+    margin-top: 6px;
+    margin-left: -9px;
+    position: relative;
+    width: 70px;
+    height: 40px;
+}
+#youtube{
+    margin-top: 6px;
+    margin-left: 0px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+#tiktok{
+    margin-top: 6px;
+    margin-left: -10px;
+    position: relative;
+    width: 70px;
+    height: 40px;
+}

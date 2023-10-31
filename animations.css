@@ -1,0 +1,132 @@
+
+@keyframes line-zoom{
+  from {width: 0%; filter: blur(9px);}
+  to {width: 100%; filter: blur(0px);}
+}
+@keyframes block{
+    from{width: 0%; height: 0vh; filter: blur(25px);}
+    to{width: 90%; height: 75vh;}
+}
+@keyframes block-text{
+    from{
+        opacity: 0;
+        filter: blur(25px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes text{
+    from{
+        filter: blur(10px);
+
+    }
+    to{
+        filter: blur(0px);
+    }
+}
+@keyframes button{
+    from{
+        bottom: 20px;
+        right: 0px;
+        width: 0px;
+        height: 0px;
+        border-radius: 0px;
+        filter: blur(25px);
+    }
+    to{
+        bottom: 30px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+        filter: blur(0px);
+    }
+}
+@keyframes inicio{
+    from{
+        margin-left: 0%;
+        opacity: 0;
+        filter: blur(25px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes general{
+    from{
+        filter: blur(10px);
+    }
+    to{
+        filter: blur(0px);
+    }
+}
+
+@keyframes social-x{
+    from{
+        opacity: 0;
+        margin-left: -25px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 115px;
+    }
+}
+
+@keyframes social-discord{
+    from{
+        opacity: 0;
+        margin-left: -25px;
+    }
+    to{
+        opacity: 1;
+        margin-left: -167px;
+    }
+}
+
+@keyframes social-youtube{
+    from{
+        opacity: 0;
+        margin-left: -25px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 50px;
+    }
+}
+
+@keyframes social-tiktok{
+    from{
+        opacity: 0;
+        margin-left: -25px;
+    }
+    to{
+        opacity: 1;
+        margin-left: -102px;
+    }
+}
+
+@-webkit-keyframes block-animation {
+    0%{background-position:0% 67%}
+    50%{background-position:100% 34%}
+    100%{background-position:0% 67%}
+}
+@-moz-keyframes block-animation {
+    0%{background-position:0% 67%}
+    50%{background-position:100% 34%}
+    100%{background-position:0% 67%}
+}
+@-o-keyframes block-animation {
+    0%{background-position:0% 67%}
+    50%{background-position:100% 34%}
+    100%{background-position:0% 67%}
+}
+@keyframes block-animation {
+    0%{background-position:0% 67%}
+    50%{background-position:100% 34%}
+    100%{background-position:0% 67%}
+}
+
+* {
+  transition: .5s cubic-bezier(.25,1.42,.41,1.2);
+}
