@@ -1,11 +1,11 @@
 
 body{
-    background: linear-gradient(297deg, #00fdff, #7300ff);
+    background: linear-gradient(103deg, #00fff6, #ff00f5);
     background-size: 400% 400%;
-    -webkit-animation: block-animation 22s ease infinite;
-    -moz-animation: block-animation 22s ease infinite;
-    -o-animation: block-animation 22s ease infinite;
-    animation: block-animation 22s ease infinite;
+    -webkit-animation: animated-background 12s ease infinite;
+    -moz-animation: animated-background 12s ease infinite;
+    -o-animation: animated-background 12s ease infinite;
+    animation: animated-background 12s ease infinite;
     font-family: inter, sans-serif;
     cursor: default;
     text-decoration: none;
@@ -192,4 +192,10 @@ iframe{
   text-align: center;
   animation-name: index;
   animation-duration: 2s;
+}
+#black-background:target{
+    background: rgb(16 16 16);
+}
+.front:target{
+    opacity: 0;
 }
